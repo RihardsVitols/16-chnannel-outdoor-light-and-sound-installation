@@ -10,7 +10,7 @@ parts:
 
 software:
 - Arduino IDE
-- PureData 64 bit
+- PureData 64-bit
 - loopMIDI
 - MIDI-OX
 - grandMA3 (or other software that your light artist uses and can receive MIDI)
@@ -23,7 +23,7 @@ equipment:
 - cables
 
 place for improvement:
-- Some parts in PureData code can be optimized and simplified 
+- Some parts in PureData code can be optimised and simplified 
 - more advanced GPS transmitter for precision
 
 ### Electronics
@@ -36,5 +36,7 @@ After installing all the softwares metioned above in the list. We can start the 
 1. Upload Arduino codes:
    - transmitter.ino to the Arduino that has GPS and compos connected
    - receiver.ino to the Arduino that will stay connected to the PC and will recive date from the other one
-2. Next, open loopMIDI. In the bottom left bottom corne,r there is a + sign. Click and create 2 instances: pdS and maR.
+2. Next, open loopMIDI. In the bottom left bottom corne,r there is a + sign. Click and create 2 instances: pdS and maR. These will mimic midi signal. pdS will be used in pure data for seding, and maR will be used in grandMA to recive the data.
 3. Run the PureData code. In the blue interface named Iteraction, select the Arduino port. If you don't know your port number, click pd plastic-bottle-magic. A new window will appear, click on devices available ports will appear in the terminal window. If everything is connected, you should see i the same blue square numbers changing.
+4. In PureData, open Media->MIDI settings under MIDI Output, select pdS.
+5. Run MIDI-OX. Click Options->MIDI Devices. In the input section, select pdS and in the output section maR. You should be able to see data running through in the Monitor windows.
