@@ -27,4 +27,4 @@ place for improvement:
 - more advanced GPS transmitter for precision
 
 ### Electronics
-The wiring system is super simple and can be seen in the folder [Documentation]() 
+The wiring system is super simple and can be seen in the folder [Documentation](https://github.com/RihardsVitols/16-chnannel-outdoor-light-and-sound-installation/tree/main/Documentation) 
