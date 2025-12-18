@@ -1,4 +1,4 @@
-# Outdoor 16-channel interactive sound and light installation
+# Outdoor 16-channel interactive sound and light installation see [here](https://www.vsmf.lv/edu/ARTWORKS/KOKU/)
 The goal was to create a system for an interactive outdoor installation. When a participant grabs an object at the trail entrance, sound and light start to follow him. When this person moves around and looks into the forest, a separate sound recording follows independently of these movements. 
 
 ### Overview
