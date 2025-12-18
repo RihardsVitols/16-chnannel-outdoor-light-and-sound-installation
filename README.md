@@ -10,7 +10,7 @@ parts:
 
 software:
 - [Arduino IDE](https://www.arduino.cc/en/software)
-- [PureData 64-bit](https://puredata.info/)
+- [PureData 64-bit](https://puredata.info/) + [comport lib](https://puredata.info/downloads/comport)
 - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 - [MIDI-OX](https://www.midiox.com/)
 - [grandMA3](https://www.malighting.com/grandma3/) (or other software that your light artist uses and can receive MIDI)
