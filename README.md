@@ -44,4 +44,4 @@ After installing all the softwares metioned above in the list. We can start the 
 
 ### References
 - [NRF24L01](https://www.electronicwings.com/arduino/nrf24l01-interfacing-with-arduino-uno)
-- 
+- [Adafruit Ultimate GPS PA16165](https://www.circuitbasics.com/how-to-setup-a-gps-sensor-on-the-arduino/)
