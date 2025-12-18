@@ -27,4 +27,5 @@ place for improvement:
 - more advanced GPS transmitter for precision
 
 ### Electronics
-The wiring system is super simple and can be seen in the folder [Documentation](https://github.com/RihardsVitols/16-chnannel-outdoor-light-and-sound-installation/tree/main/Documentation) 
+The wiring system is simple and can be seen in the folder [Documentation](https://github.com/RihardsVitols/16-chnannel-outdoor-light-and-sound-installation/tree/main/Documentation).
+The code is prepared for particular GPS and compos breakout boards. If you are using different ones, you might need to write your own code. All the codes are in this [folder](https://github.com/RihardsVitols/16-chnannel-outdoor-light-and-sound-installation/tree/main/code).
